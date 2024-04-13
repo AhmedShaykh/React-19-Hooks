@@ -33,6 +33,12 @@ const Home = () => {
 
                 <Pagination />
             </div>
+
+            <div className="container md:max-w-6xl">
+                <h1 className="mb-10 px-2 text-3xl text-center font-bold">
+                    Serverless
+                </h1>
+            </div>
         </div>
     )
 };
