@@ -1,4 +1,5 @@
 import ContactForm from "@/Components/ContactForm";
+import Pagination from "@/Components/Pagination";
 import Carousel from "@/Components/Carousel";
 import { EmblaOptionsType } from "embla-carousel";
 
@@ -23,6 +24,14 @@ const Home = () => {
                 <Carousel
                     options={OPTIONS}
                 />
+            </div>
+
+            <div className="container md:max-w-6xl">
+                <h1 className="mb-10 px-2 text-3xl text-center font-bold">
+                    Pagination
+                </h1>
+
+                <Pagination />
             </div>
         </div>
     )
