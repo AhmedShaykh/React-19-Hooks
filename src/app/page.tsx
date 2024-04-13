@@ -1,4 +1,4 @@
-import React from "react";
+import ContactForm from "@/Components/ContactForm";
 
 const Home = () => {
     return (
@@ -7,6 +7,8 @@ const Home = () => {
                 <h1 className="mb-10 px-2 text-3xl text-center font-bold">
                     Contact Us
                 </h1>
+
+                <ContactForm />
             </div>
         </div>
     )
