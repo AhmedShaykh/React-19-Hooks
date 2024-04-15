@@ -6,7 +6,7 @@ export async function GET() {
 
     const client = await clientPromise;
 
-    const collection = client.db().collection("nextOptimistic");
+    const collection = client.db().collection("todos");
 
     try {
 
@@ -28,7 +28,7 @@ export async function POST(req: any) {
 
     const client = await clientPromise;
 
-    const collection = client.db().collection("nextOptimistic");
+    const collection = client.db().collection("todos");
 
     try {
 
@@ -52,7 +52,7 @@ export async function PUT(req: NextRequest) {
 
     const client = await clientPromise;
 
-    const collection = client.db().collection("nextOptimistic");
+    const collection = client.db().collection("todos");
 
     try {
 
@@ -74,7 +74,7 @@ export async function DELETE(req: Request) {
 
     const client = await clientPromise;
 
-    const collection = client.db().collection("nextOptimistic");
+    const collection = client.db().collection("todos");
 
     try {
 
