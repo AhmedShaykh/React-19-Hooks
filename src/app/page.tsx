@@ -1,6 +1,7 @@
 import ContactForm from "@/Components/ContactForm";
 import Pagination from "@/Components/Pagination";
 import Carousel from "@/Components/Carousel";
+import Todo from "@/Components/Todo";
 import { EmblaOptionsType } from "embla-carousel";
 
 const OPTIONS: EmblaOptionsType = { loop: true, dragFree: true };
@@ -21,9 +22,7 @@ const Home = () => {
                     Embla Carousel
                 </h1>
 
-                <Carousel
-                    options={OPTIONS}
-                />
+                <Carousel options={OPTIONS} />
             </div>
 
             <div className="container md:max-w-6xl">
@@ -36,8 +35,10 @@ const Home = () => {
 
             <div className="container md:max-w-6xl">
                 <h1 className="mb-10 px-2 text-3xl text-center font-bold">
-                    Serverless
+                    Serverless TODO
                 </h1>
+
+                <Todo />
             </div>
         </div>
     )

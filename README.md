@@ -1,1 +1,1 @@
-# React Email & Embla Carousel!
+# React Email & Carousel!

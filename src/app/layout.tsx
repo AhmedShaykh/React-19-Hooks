@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "React Email & Embla Carousel",
-  description: "React Email & Embla Carousel"
+  title: "React Email & Carousel",
+  description: "React Email & Carousel"
 };
 
 export default function RootLayout({
