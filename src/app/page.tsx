@@ -1,3 +1,4 @@
+import UseCallBack from "@/Components/UseCallBack";
 import ContactForm from "@/Components/ContactForm";
 import Pagination from "@/Components/Pagination";
 import Carousel from "@/Components/Carousel";
@@ -39,6 +40,14 @@ const Home = () => {
                 </h1>
 
                 <Todo />
+            </div>
+
+            <div className="container md:max-w-6xl">
+                <h1 className="mb-10 px-2 text-3xl text-center font-bold">
+                    UseCallBack Hooks
+                </h1>
+
+                <UseCallBack />
             </div>
         </div>
     )
